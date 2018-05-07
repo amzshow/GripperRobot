@@ -6,9 +6,7 @@ A simulation of a robotic arm in a 3D environment, with 6 joints learning to rea
 
 This project requires Gazebo and Robotic Operating System (ROS) Kinetic to be installed on Ubuntu 16.0.4.
 
-The file must be in the script folder under catkin_ws/src/test
-
-The project also required the gripper_robot.urdf file to be in the urdf folder under catkin_ws/src/test
+The files and folder must be in the folder ~/catkin_ws/src/test
 
 # Setup
 

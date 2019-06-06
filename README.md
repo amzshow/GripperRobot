@@ -26,9 +26,9 @@ The files and folder must be in the folder ~/catkin_ws/src/test
 
 # Start:
 
-'''
+```
   cd script/
   chmod +x get_joint_and_link_status.py 
   chmod +x RL_brain.py
   rosrun test get_joint_and_link_status.py
-'''
+```

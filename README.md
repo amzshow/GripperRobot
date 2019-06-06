@@ -10,6 +10,7 @@ The files and folder must be in the folder ~/catkin_ws/src/test
 
 # Setup
 
+```
   cd catkin_ws/
   source devel/setup.bash
   cd src/
@@ -21,10 +22,13 @@ The files and folder must be in the folder ~/catkin_ws/src/test
   roscd test
   cd urdf/
   rosrun gazebo_ros spawn_model -file gripper_robot.urdf -urdf -model gripper_robot
+```
 
 # Start:
 
+'''
   cd script/
   chmod +x get_joint_and_link_status.py 
   chmod +x RL_brain.py
   rosrun test get_joint_and_link_status.py
+'''
